@@ -38,6 +38,25 @@
             <dependent_value/>
             <element>item_type</element>
             <hint/>
+            <inactive>false</inactive>
+            <label>projector</label>
+            <language>en</language>
+            <name>x_cdltd_loaner_req_loaner_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-05 05:45:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-05 20:11:04</sys_updated_on>
+            <value>cmdb_ci_projector</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>item_type</element>
+            <hint/>
             <inactive>true</inactive>
             <label>mobile phone</label>
             <language>en</language>
@@ -58,19 +77,19 @@
             <element>item_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>projector</label>
+            <label>Laptop</label>
             <language>en</language>
             <name>x_cdltd_loaner_req_loaner_request</name>
-            <sequence>2</sequence>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-05 05:45:51</sys_created_on>
+            <sys_created_on>2024-10-05 20:11:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-05 05:45:51</sys_updated_on>
-            <value>cmdb_ci_projector</value>
+            <sys_updated_on>2024-10-05 20:11:04</sys_updated_on>
+            <value>laptop</value>
         </sys_choice>
     </sys_choice>
 </record_update>

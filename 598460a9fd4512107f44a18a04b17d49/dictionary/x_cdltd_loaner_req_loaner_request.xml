@@ -13,13 +13,15 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="item  type" max_length="40" name="item_type" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="laptop" sequence="0" value="cmdb_ci_computer"/>
+                <element inactive_on_update="false" label="projector" sequence="0" value="cmdb_ci_projector"/>
+                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
                 <element inactive="true" inactive_on_update="true" label="mobile phone" sequence="1" value="cmdb_ci_mobile_device"/>
-                <element inactive_on_update="false" label="projector" sequence="2" value="cmdb_ci_projector"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Location to used" max_length="40" name="location_to_be_used" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="other" max_length="40" name="other" type="string"/>
         <element attributes="encode_utf8=false" label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="start date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Pick Up Reminder" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
     </element>
 </database>
